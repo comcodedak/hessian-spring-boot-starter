@@ -128,7 +128,6 @@ public class HessianAutoScanRegistrar implements ImportBeanDefinitionRegistrar,
 						Assert.isTrue(annotationMetadata.isInterface(),"@HessianClient can only be specified on an interface");
 						registerClient(annotationMetadata,registry);
 					}else if(annotationMetadata.isAnnotated(HessianService.class.getName())) {
-						Assert.isTrue(annotationMetadata.isInterface(),"@HessianService can only be specified on an interface");
 						registerService(annotationMetadata, registry);
 					}
 
