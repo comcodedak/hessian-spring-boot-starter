@@ -44,7 +44,7 @@ import com.codedak.hessian.spring.annotation.HessianService;
  * @author Jakub Narloch
  * @author Venil Noronha
  * @author hunter
- * 2017 08 20
+ * 2017 08 20 chengpanggang@126.com
  */
 public class HessianAutoScanRegistrar implements ImportBeanDefinitionRegistrar,
 		ResourceLoaderAware, BeanClassLoaderAware {
